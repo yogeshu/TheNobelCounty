@@ -58,23 +58,22 @@ code {
     #d12bd1
   );
 }
- .priavcy-cookie{
- position: absolute;
- bottom:0;
- left: 0;
+.priavcy-cookie {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
   z-index: 999;
   opacity: 0;
   transform: translateY(100%);
   transition: all 500ms ease-out;
   /* height: 2rem; */
- /* padding: 1rem; */
- font-size: 1.2rem;
+  /* padding: 1rem; */
+  font-size: 1.2rem;
 }
-.priavcy-cookie.show{
+.priavcy-cookie.show {
   opacity: 1;
 }
-.footer{
+.footer {
   padding: 0.5rem;
-   
 }
