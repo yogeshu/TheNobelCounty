@@ -45,7 +45,10 @@ code {
   margin: 0 4rem;
   text-align: center;
 }
-
+.nav-link{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
 .background-dark {
   width: 100%;
   padding: 1rem;
