@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "./navbar";
 
 import Header from "./Header";
@@ -10,14 +10,7 @@ import Footer from "./footer";
 function App() {
   const [data, setData] = useState([]);
   const [currentResult, setCurrentResult] = useState(0);
-  const [show, setShow] = useState(false);
-  const alert = document.getElementsByClassName('priavcy-cookie"');
-  const setCard = () => {
-    // if(show === false){
-    //   alert.classList.add('show');
-    // }
-  };
-  setCard();
+
   const Nobellist = () => {
     try {
       fetch("http://api.nobelprize.org/v1/country.json")
