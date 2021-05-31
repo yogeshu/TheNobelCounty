@@ -10,19 +10,19 @@ const Navbar = ()=> {
   </button>
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav ms-auto">
-      <li className="nav-item active">
-        <a className="nav-link" href="#">Home </a>
+      <li className="nav-item active pr-2">
+        <a className="nav-link " href="#">Home </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item pr-2">
         <a className="nav-link" href="#">News</a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item pr-2">
         <a className="nav-link" href="#">Recent</a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item pr-2">
         <a className="nav-link" href="#" >About Us</a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item pr-2">
         <a className="btn btn-primary" href="#" >Sign In </a>
       </li>
     </ul>
